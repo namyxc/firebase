@@ -43,3 +43,12 @@ Ha(/^megrendelek (\d+) ételt és (\d+) italt a lentiek közül$/) do |db_food, 
     puts "Rendelt ital: #{drink['drink']}"
   end
 end
+
+Ha(/^kiválasztom a kedvenc ételem$/) do
+  touch("android.widget.Button id:'setFood'")
+end
+
+Ha(/^kiválasztom a kedvenc italom$/) do
+  touch("android.widget.Button id:'setDrink'")
+end
+

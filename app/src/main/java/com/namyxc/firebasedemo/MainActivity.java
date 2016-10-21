@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, foodName);
     bundle.putString(FirebaseAnalytics.Param.VIRTUAL_CURRENCY_NAME, "peták");
     bundle.putDouble(FirebaseAnalytics.Param.VALUE, 50);
-    mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
+    mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.ECOMMERCE_PURCHASE, bundle);
   }
   public void setDrink(View v){
     String drinkName = ((EditText)findViewById(R.id.drinkName)).getText().toString();

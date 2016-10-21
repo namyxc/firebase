@@ -31,7 +31,8 @@
       android:layout_height="wrap_content"
       android:text="Mentés"
       android:layout_weight="0.5"
-      android:onClick="setFood"/>
+      android:onClick="setFood"
+      android:id="@+id/setFood"/>
     <Button
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -59,7 +60,8 @@
       android:layout_height="wrap_content"
       android:text="Mentés"
       android:layout_weight="0.5"
-      android:onClick="setDrink"/>
+      android:onClick="setDrink"
+      android:id="@+id/setDrink"/>
     <Button
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"

@@ -1,36 +1,40 @@
 # language: hu
 Jellemző: Rendelés
 
-@reinstall
-@eles
-Forgatókönyv: Véletlenszerű étel rendelés
-  Ha megrendelek 2 ételt és 3 italt a lentiek közül
+  @reinstall
+  @eles
+  Forgatókönyv: Véletlenszerű étel rendelés
+    Ha megrendelek 2 ételt és 3 italt a lentiek közül
 
-    | food       | drink      |
-    | "Pizza"    | "limonádé" |
-    | "Makaróni" | "víz"      |
-    | "Leves"    | "kakaó"    |
-    | "Tészta"   | "tej"      |
-    | "Hagyma"   | "sör"      |
-    | "Lágytojás"   | "cappy"      |
-    | "Ruszli"   | "sprite"      |
-    | "Burgonyaleves"   | "Coca-cola"      |
-    | "Rakott kelbimbó"   | "narancslé"      |
-    | "Grill csirke"   | "málnalé"      |
-    | "Sült kacsmáj"   | "paradicsomlé"      |
-    | "Káposztasaláta"   | "bor"      |
-    | "Krumplifőzelék"   | "pálinka"      |
-    | "Fánk"   | "Mountain Dew"      |
-    | "Búrkifli"   | "tea"      |
-    | "Csontleves"   | "jegestea"      |
-    | "Halászlé"   | "kávé"      |
-    | "Tökfőzelék"   | "ásványvíz"      |
-    | "Spenót"   | "brandy"      |
-    | "Csikós tokány"   | "tejeskávé"      |
-    | "Dubary szelet"   | "melange"      |
-    | "Laskaálom"   | "rum"      |
-    | "Sóletbab"   | "vermut"      |
-    | "Aranygaluska"   | "gin"      |
+      | food              | drink          |
+      | "Pizza"           | "limonádé"     |
+      | "Makaróni"        | "víz"          |
+      | "Leves"           | "kakaó"        |
+      | "Tészta"          | "tej"          |
+      | "Hagyma"          | "sör"          |
+      | "Lágytojás"       | "cappy"        |
+      | "Ruszli"          | "sprite"       |
+      | "Burgonyaleves"   | "Coca-cola"    |
+      | "Rakott kelbimbó" | "narancslé"    |
+      | "Grill csirke"    | "málnalé"      |
+      | "Sült kacsmáj"    | "paradicsomlé" |
+      | "Káposztasaláta"  | "bor"          |
+      | "Krumplifőzelék"  | "pálinka"      |
+      | "Fánk"            | "Mountain Dew" |
+      | "Búrkifli"        | "tea"          |
+      | "Csontleves"      | "jegestea"     |
+      | "Halászlé"        | "kávé"         |
+      | "Tökfőzelék"      | "ásványvíz"    |
+      | "Spenót"          | "brandy"       |
+      | "Csikós tokány"   | "tejeskávé"    |
+      | "Dubary szelet"   | "melange"      |
+      | "Laskaálom"       | "rum"          |
+      | "Sóletbab"        | "vermut"       |
+      | "Aranygaluska"    | "gin"          |
+
+
+    És kiválasztom a kedvenc ételem
+    És kiválasztom a kedvenc italom
   #
   # @reinstall
   # @eles
